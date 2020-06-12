@@ -1,0 +1,22 @@
+{
+  "name": "express-server",
+  "version": "1.0.0",
+  "description": "backend server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Abhilash Wase",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-session": "^1.17.0",
+    "mongoose": "^5.4.22",
+    "mongoose-unique-validator": "^2.0.3",
+    "twitter": "^1.7.1",
+    "twitter-api": "^1.0.6"
+  }
+}

@@ -1,0 +1,40 @@
+.white-title {
+    color: white;
+    opacity: 0.95;
+}
+
+.black-title {
+    color: black;
+    opacity: 0.95;
+}
+
+.watchlist-btn {
+    color: white;
+    background-color: black;
+}
+
+.watchlist-btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: large;
+}
+
+html, body{
+    height: 100%;
+}
+
+body {
+    background: url("../../assets/bg.jpg")!important;
+    background-position: center center!important;
+    background-repeat: revert!important;
+    background-attachment: fixed;
+    background-size:  cover;
+    height: 100%;
+    background-color: #2d3436!important;
+    background-blend-mode: overlay!important;
+    /*width: 100%;*/
+}
